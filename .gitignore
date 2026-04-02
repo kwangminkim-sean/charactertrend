@@ -1,3 +1,5 @@
+node_modules/
+.next/
 .venv/
 __pycache__/
 *.pyc
@@ -6,12 +8,8 @@ __pycache__/
 *.mp4
 *.npz
 output/*.json
+output/images/
 !.env.example
-!web/package.json
-!web/tsconfig.json
-!web/next.config.js
-!web/tailwind.config.js
-!web/postcss.config.js
 !vercel.json
 MotionPNGTuber/
 assets/character/*.mp4
