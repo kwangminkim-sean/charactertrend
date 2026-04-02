@@ -1,0 +1,876 @@
+{
+  "date": "2026-04-02",
+  "generated_at": "2026-04-02T15:05:23.151793",
+  "sources": [
+    "rofan"
+  ],
+  "total_collected": 40,
+  "top5": [
+    {
+      "name": "권이언",
+      "source": "rofan",
+      "description": "R ONLY",
+      "tags": [
+        "구원",
+        "계략",
+        "피폐",
+        "기생",
+        "현대물",
+        "HL",
+        "BL"
+      ],
+      "interaction_count": 1500,
+      "url": "",
+      "image_url": "https://img.rofan.ai/bot-assets/5878dc89-f6ec-4d86-8d37-4c5dabe02d0e/8e5848ae4b8eaaf6eab6f0dd684a8198.webp",
+      "image_local": "/images/rofan_5878dc89.webp",
+      "g3": 8,
+      "g4": 7,
+      "g5": 9,
+      "total": 24,
+      "reason": "권이언은 현대물과 BL 장르에서 대중이 쉽게 이해할 수 있는 요소를 포함하고 있어 익숙함 점수가 높습니다. 또한, 기생과 계략이라는 독특한 주제를 통해 신선함을 제공하지만, 물리적으로 불가능한 존재 형태는 부족합니다. 긴 서사와 매력적인 세계관 덕분에 장기적인 팬층을 형성할 가능성이 높습니다.",
+      "unx_fit": "권이언은 복잡한 감정선과 매력적인 서사로 UNX 라이브 AI에 적합합니다."
+    },
+    {
+      "name": "디크란",
+      "source": "rofan",
+      "description": "[🩵SAFE🩵]천 아래로 숨을 참을 때마다 생각했다. 이것이 복종인지 질식인지",
+      "tags": [
+        "아르카네스제국",
+        "헌신",
+        "순애",
+        "구원",
+        "여존남비",
+        "HL",
+        "BL"
+      ],
+      "interaction_count": 1300,
+      "url": "",
+      "image_url": "https://img.rofan.ai/bot-assets/255c60ff-45c8-41a2-86a0-e2491e216c1c/8995090ac01a8776eb5aa88b145be8e9.webp",
+      "image_local": "/images/rofan_255c60ff.webp",
+      "g3": 8,
+      "g4": 7,
+      "g5": 9,
+      "total": 24,
+      "reason": "디크란은 인기 있는 로판 장르의 요소를 잘 반영하고 있어 대중이 쉽게 이해할 수 있습니다. 또한, 헌신과 구원이라는 주제를 통해 신선한 감정선을 제공하며, 장기적인 서사와 매력을 지니고 있습니다.",
+      "unx_fit": "디크란은 복잡한 감정선을 가진 캐릭터로, UNX 라이브 AI의 상호작용에 적합합니다."
+    },
+    {
+      "name": "IF 조선의 황금기",
+      "source": "rofan",
+      "description": "홍위의 곁으로 IF 작품입니다 세종과 문종이 살아있을 시점의 이야기입니다",
+      "tags": [
+        "시뮬레이션",
+        "동양풍",
+        "구원",
+        "빙의"
+      ],
+      "interaction_count": 1400,
+      "url": "",
+      "image_url": "https://img.rofan.ai/bot-assets/d29ce8a9-69ae-48c9-97ea-f1060b2b1321/f785e2c997b75263beddd40dceedabdc.webp",
+      "image_local": "/images/rofan_d29ce8a9.webp",
+      "g3": 8,
+      "g4": 7,
+      "g5": 9,
+      "total": 24,
+      "reason": "이 캐릭터는 조선 시대의 역사적 인물을 활용하여 대중이 쉽게 이해할 수 있는 감정선을 제공합니다. 또한, IF 작품이라는 설정은 신선함을 주지만, 물리적으로 불가능한 요소는 다소 부족합니다. 그러나 역사적 배경과 구원이라는 주제는 장기적인 매력을 지니고 있습니다.",
+      "unx_fit": "이 캐릭터는 역사적 요소와 현대적 감성을 결합하여 UNX 라이브 AI의 다양한 시나리오에 적합합니다."
+    },
+    {
+      "name": "한결",
+      "source": "rofan",
+      "description": "R ONLY",
+      "tags": [
+        "츤데레",
+        "까칠",
+        "싸가지",
+        "독설가",
+        "배구",
+        "청송대",
+        "HL",
+        "BL",
+        "로맨스"
+      ],
+      "interaction_count": 4300,
+      "url": "",
+      "image_url": "https://img.rofan.ai/bot-assets/18d289ab-f4ba-4acc-a436-f1ca342720bc/afa671a2f438f62ea643cded96c0d366.webp",
+      "image_local": "/images/rofan_18d289ab.webp",
+      "g3": 8,
+      "g4": 7,
+      "g5": 9,
+      "total": 24,
+      "reason": "한결은 츤데레 캐릭터로서 대중에게 익숙한 감정선을 가지고 있으며, 배구라는 스포츠와 결합하여 신선한 매력을 제공합니다. 또한, BL과 로맨스 요소가 결합되어 장기적인 팬층을 형성할 가능성이 높습니다.",
+      "unx_fit": "한결은 다양한 감정 표현과 독특한 성격으로 UNX 라이브 AI에 적합한 캐릭터입니다."
+    },
+    {
+      "name": "러너",
+      "source": "rofan",
+      "description": "R ONLY",
+      "tags": [
+        "여성향",
+        "HL",
+        "BL",
+        "초능력",
+        "근육뇌",
+        "안정형인가",
+        "쾌남",
+        "티키타카",
+        "일상",
+        "스타레인"
+      ],
+      "interaction_count": 46000,
+      "url": "",
+      "image_url": "https://img.rofan.ai/bot-assets/7fd108ee-cad7-4c22-8261-fe99e361d5b9/6c3e93dd717f9e68ab0c44508cca70f0.webp",
+      "image_local": "/images/rofan_7fd108ee.webp",
+      "g3": 8,
+      "g4": 7,
+      "g5": 9,
+      "total": 24,
+      "reason": "러너는 여성향과 초능력이라는 인기 장르를 결합하여 대중이 쉽게 이해할 수 있는 캐릭터입니다. 또한, 근육뇌와 쾌남이라는 독특한 조합이 신선함을 더하며, 장기적인 매력과 서사적 요소가 잘 갖춰져 있습니다.",
+      "unx_fit": "러너는 다양한 감정선과 매력적인 캐릭터 설정으로 UNX 라이브 AI에 적합합니다."
+    }
+  ],
+  "all_chars": [
+    {
+      "name": "권이언",
+      "source": "rofan",
+      "description": "R ONLY",
+      "tags": [
+        "구원",
+        "계략",
+        "피폐",
+        "기생",
+        "현대물",
+        "HL",
+        "BL"
+      ],
+      "interaction_count": 1500,
+      "url": "",
+      "image_url": "https://img.rofan.ai/bot-assets/5878dc89-f6ec-4d86-8d37-4c5dabe02d0e/8e5848ae4b8eaaf6eab6f0dd684a8198.webp",
+      "image_local": "/images/rofan_5878dc89.webp"
+    },
+    {
+      "name": "제리헨",
+      "source": "rofan",
+      "description": "R ONLY",
+      "tags": [
+        "남성",
+        "이복동생",
+        "황자",
+        "백치",
+        "연기",
+        "소심",
+        "불안",
+        "황권다툼",
+        "로판",
+        "여성향"
+      ],
+      "interaction_count": 1400,
+      "url": "",
+      "image_url": "https://img.rofan.ai/bot-assets/29b9de91-0ca9-4581-ae22-fa2805749a7c/4c995b0024b254d86e6af851e93a54ce.webp",
+      "image_local": "/images/rofan_29b9de91.webp"
+    },
+    {
+      "name": "디크란",
+      "source": "rofan",
+      "description": "[🩵SAFE🩵]천 아래로 숨을 참을 때마다 생각했다. 이것이 복종인지 질식인지",
+      "tags": [
+        "아르카네스제국",
+        "헌신",
+        "순애",
+        "구원",
+        "여존남비",
+        "HL",
+        "BL"
+      ],
+      "interaction_count": 1300,
+      "url": "",
+      "image_url": "https://img.rofan.ai/bot-assets/255c60ff-45c8-41a2-86a0-e2491e216c1c/8995090ac01a8776eb5aa88b145be8e9.webp",
+      "image_local": "/images/rofan_255c60ff.webp"
+    },
+    {
+      "name": "강태풍",
+      "source": "rofan",
+      "description": "R ONLY",
+      "tags": [
+        "소꿉친구",
+        "짝사랑",
+        "일상",
+        "순애",
+        "배구",
+        "청송대",
+        "댕댕이",
+        "열혈",
+        "HL",
+        "BL"
+      ],
+      "interaction_count": 19000,
+      "url": "",
+      "image_url": "https://img.rofan.ai/bot-assets/18d289ab-f4ba-4acc-a436-f1ca342720bc/f1a993e37fbce9472ab57eb731d8a5fe.webp",
+      "image_local": "/images/rofan_18d289ab.webp"
+    },
+    {
+      "name": "다이아 아카데미아",
+      "source": "rofan",
+      "description": "R ONLY",
+      "tags": [
+        "자유",
+        "아카데미",
+        "HL",
+        "BL",
+        "시뮬레이션",
+        "회로미로"
+      ],
+      "interaction_count": 0,
+      "url": "",
+      "image_url": "https://img.rofan.ai/bot-assets/464f916d-93ba-45b3-8726-58c3e87ab40c/cd713b6a90739f497e94313c30d4111f.webp",
+      "image_local": "/images/rofan_464f916d.webp"
+    },
+    {
+      "name": "시헌",
+      "source": "rofan",
+      "description": "R ONLY",
+      "tags": [
+        "2000년대",
+        "양아치",
+        "전국구",
+        "광휘고",
+        "싸이월드",
+        "사대천왕",
+        "무뚝뚝",
+        "묵범"
+      ],
+      "interaction_count": 4400,
+      "url": "",
+      "image_url": "https://img.rofan.ai/bot-assets/ac593940-a84c-4815-bee7-456f803eab13/76994b77ec82affab659642221f45124.webp",
+      "image_local": "/images/rofan_ac593940.webp"
+    },
+    {
+      "name": "칸토",
+      "source": "rofan",
+      "description": "[🩵SAFE🩵]벙어리 마피아에게 납치 당했다. (...🫵🫶👉👈...)",
+      "tags": [
+        "BL",
+        "HL",
+        "강압",
+        "순애",
+        "납치",
+        "감금",
+        "혐관",
+        "소유욕",
+        "짝사랑"
+      ],
+      "interaction_count": 0,
+      "url": "",
+      "image_url": "https://img.rofan.ai/bot-assets/255c60ff-45c8-41a2-86a0-e2491e216c1c/6e41e217a5c3ffaa83357ef79aa8c630.webp",
+      "image_local": "/images/rofan_255c60ff.webp"
+    },
+    {
+      "name": "IF 조선의 황금기",
+      "source": "rofan",
+      "description": "홍위의 곁으로 IF 작품입니다 세종과 문종이 살아있을 시점의 이야기입니다",
+      "tags": [
+        "시뮬레이션",
+        "동양풍",
+        "구원",
+        "빙의"
+      ],
+      "interaction_count": 1400,
+      "url": "",
+      "image_url": "https://img.rofan.ai/bot-assets/d29ce8a9-69ae-48c9-97ea-f1060b2b1321/f785e2c997b75263beddd40dceedabdc.webp",
+      "image_local": "/images/rofan_d29ce8a9.webp"
+    },
+    {
+      "name": "백준우",
+      "source": "rofan",
+      "description": "R ONLY",
+      "tags": [
+        "로맨스",
+        "미혼부",
+        "애아빠",
+        "육아"
+      ],
+      "interaction_count": 11000,
+      "url": "",
+      "image_url": "https://img.rofan.ai/bot-assets/b330da24-8ea4-4a8d-8ac4-22d3a7d8c104/7c63841ae75f94c6c800f984a5ae1889.webp",
+      "image_local": "/images/rofan_b330da24.webp"
+    },
+    {
+      "name": "서하린",
+      "source": "rofan",
+      "description": "유저의 담당 일진",
+      "tags": [
+        "능력",
+        "능력학교"
+      ],
+      "interaction_count": 0,
+      "url": "",
+      "image_url": "https://img.rofan.ai/bot-assets/1d4b03a4-6dd2-49eb-ba94-acf08aec3e79/bc44d6bc4e37ea277a9bf4a97cbabc2e.webp",
+      "image_local": "/images/rofan_1d4b03a4.webp"
+    },
+    {
+      "name": "한결",
+      "source": "rofan",
+      "description": "R ONLY",
+      "tags": [
+        "츤데레",
+        "까칠",
+        "싸가지",
+        "독설가",
+        "배구",
+        "청송대",
+        "HL",
+        "BL",
+        "로맨스"
+      ],
+      "interaction_count": 4300,
+      "url": "",
+      "image_url": "https://img.rofan.ai/bot-assets/18d289ab-f4ba-4acc-a436-f1ca342720bc/afa671a2f438f62ea643cded96c0d366.webp",
+      "image_local": "/images/rofan_18d289ab.webp"
+    },
+    {
+      "name": "윤재현",
+      "source": "rofan",
+      "description": "희주를 잊은 적 없어. 근데 그렇다고 널 버릴 수도 없었어.",
+      "tags": [
+        "로맨스",
+        "쓰레기",
+        "회귀",
+        "일상",
+        "현대",
+        "후회남",
+        "동거"
+      ],
+      "interaction_count": 13000,
+      "url": "",
+      "image_url": "https://img.rofan.ai/bot-assets/8e3309cb-6f41-48af-a4c3-bd86d7abe2a9/033fd9ae9559300fdd414a6c7a93b6b6.webp",
+      "image_local": "/images/rofan_8e3309cb.webp"
+    },
+    {
+      "name": "승범",
+      "source": "rofan",
+      "description": "R ONLY",
+      "tags": [
+        "노란장판",
+        "HL",
+        "로맨스"
+      ],
+      "interaction_count": 0,
+      "url": "",
+      "image_url": "https://img.rofan.ai/bot-assets/890e0580-afcd-4e1f-942b-30ceffac2d28/78dca3278af08af83553f6cbede7d615.webp",
+      "image_local": "/images/rofan_890e0580.webp"
+    },
+    {
+      "name": "剛炫",
+      "source": "rofan",
+      "description": "R ONLY",
+      "tags": [
+        "남장여자",
+        "까칠",
+        "소유욕",
+        "강압",
+        "능글",
+        "무뚝뚝",
+        "츤데레",
+        "IHWA",
+        "강현"
+      ],
+      "interaction_count": 2100,
+      "url": "",
+      "image_url": "https://img.rofan.ai/bot-assets/44f66b19-71cf-4f29-bea7-f899831e7407/c874f9233c6e6a3057812b3cda83ac2e.webp",
+      "image_local": "/images/rofan_44f66b19.webp"
+    },
+    {
+      "name": "노틸러스호",
+      "source": "rofan",
+      "description": "⚠ 은하계 최저 임금, 최고 위험! 사망 시 장례비용 전액 본인 부담! ⚠",
+      "tags": [
+        "HL",
+        "BL",
+        "SF",
+        "판타지",
+        "함선",
+        "우주",
+        "생존",
+        "개그",
+        "일상",
+        "시뮬레이션"
+      ],
+      "interaction_count": 0,
+      "url": "",
+      "image_url": "https://img.rofan.ai/bot-assets/f88cc9c3-a290-4424-8fa3-4162a4a3cf3e/5cefc756a65259dfd87b55f39c97a74c.webp",
+      "image_local": "/images/rofan_f88cc9c3.webp"
+    },
+    {
+      "name": "러너",
+      "source": "rofan",
+      "description": "R ONLY",
+      "tags": [
+        "여성향",
+        "HL",
+        "BL",
+        "초능력",
+        "근육뇌",
+        "안정형인가",
+        "쾌남",
+        "티키타카",
+        "일상",
+        "스타레인"
+      ],
+      "interaction_count": 46000,
+      "url": "",
+      "image_url": "https://img.rofan.ai/bot-assets/7fd108ee-cad7-4c22-8261-fe99e361d5b9/6c3e93dd717f9e68ab0c44508cca70f0.webp",
+      "image_local": "/images/rofan_7fd108ee.webp"
+    },
+    {
+      "name": "한유리",
+      "source": "rofan",
+      "description": "아니, 방금 봤잖아. 저거… 분명 나 쳐다본 거 맞지?",
+      "tags": [
+        "허언증",
+        "손민수",
+        "일상",
+        "대학교",
+        "빌러인가",
+        "쓰레기인가",
+        "로맨스",
+        "계략",
+        "학원물",
+        "참교육"
+      ],
+      "interaction_count": 4500,
+      "url": "",
+      "image_url": "https://img.rofan.ai/bot-assets/8e3309cb-6f41-48af-a4c3-bd86d7abe2a9/8c76a57db0a547fdf0079506e1350073.webp",
+      "image_local": "/images/rofan_8e3309cb.webp"
+    },
+    {
+      "name": "Far From",
+      "source": "rofan",
+      "description": "R ONLY",
+      "tags": [
+        "미국",
+        "하이틴",
+        "아날로그",
+        "호러",
+        "시뮬레이션",
+        "SF",
+        "공포",
+        "HL",
+        "GL",
+        "BL"
+      ],
+      "interaction_count": 1300,
+      "url": "",
+      "image_url": "https://img.rofan.ai/bot-assets/d57ac657-1ba6-4ae1-accd-9f58db110452/fd8a848561b946818dd0dbb82a8c14ef.webp",
+      "image_local": "/images/rofan_d57ac657.webp"
+    },
+    {
+      "name": "반은형",
+      "source": "rofan",
+      "description": "R ONLY",
+      "tags": [
+        "2009년",
+        "학원물",
+        "플러팅",
+        "능글",
+        "순애",
+        "일상",
+        "HL",
+        "BL",
+        "로코",
+        "힐링"
+      ],
+      "interaction_count": 3000,
+      "url": "",
+      "image_url": "https://img.rofan.ai/bot-assets/865ea7c8-644c-4b75-840e-b97b5be319a8/faf0642626f54a901012079ce791c8b7.webp",
+      "image_local": "/images/rofan_865ea7c8.webp"
+    },
+    {
+      "name": "현재규",
+      "source": "rofan",
+      "description": "야, 웃지 마. 존나 재수 없으니까.",
+      "tags": [
+        "고양이",
+        "수인",
+        "유교보이",
+        "첫사랑",
+        "츤데레",
+        "학원물",
+        "로맨스코미디",
+        "순애"
+      ],
+      "interaction_count": 0,
+      "url": "",
+      "image_url": "https://img.rofan.ai/bot-assets/6efd8e7e-bc67-4b16-a576-b4d62fd6c2fb/978f289ffba325ec541cebdd303f5aff.webp",
+      "image_local": "/images/rofan_6efd8e7e.webp"
+    },
+    {
+      "name": "태율",
+      "source": "rofan",
+      "description": "R ONLY",
+      "tags": [
+        "2000년대",
+        "양아치",
+        "전국구",
+        "광휘고",
+        "일진",
+        "싸이월드",
+        "사대천왕",
+        "묵범"
+      ],
+      "interaction_count": 16000,
+      "url": "",
+      "image_url": "https://img.rofan.ai/bot-assets/ac593940-a84c-4815-bee7-456f803eab13/6a307bfe68a7dd779447385d4da67fe2.webp",
+      "image_local": "/images/rofan_ac593940.webp"
+    },
+    {
+      "name": "예은",
+      "source": "rofan",
+      "description": "남친은 나만 봐! 나는 남사친들과 놀게💔 (여우. 여자친구 참교육)",
+      "tags": [
+        "바람",
+        "중학생",
+        "중3",
+        "남친",
+        "남사친",
+        "갈등",
+        "연인",
+        "로맨스",
+        "혐관"
+      ],
+      "interaction_count": 3200,
+      "url": "",
+      "image_url": "https://img.rofan.ai/bot-assets/cbdc2a44-7bbe-462c-8dd1-9b4a28806bae/21c2af39dc54ade65335d82e1f9ba66c.webp",
+      "image_local": "/images/rofan_cbdc2a44.webp"
+    },
+    {
+      "name": "링샤오",
+      "source": "rofan",
+      "description": "R ONLY",
+      "tags": [
+        "남성",
+        "여성향",
+        "HL",
+        "BL",
+        "귀여워용",
+        "키작남",
+        "아직성장중",
+        "티키타카",
+        "일상",
+        "헤이룽화"
+      ],
+      "interaction_count": 0,
+      "url": "",
+      "image_url": "https://img.rofan.ai/bot-assets/7fd108ee-cad7-4c22-8261-fe99e361d5b9/ef04bee1fbd0d6731377961ba9a4c14a.webp",
+      "image_local": "/images/rofan_7fd108ee.webp"
+    },
+    {
+      "name": "해인",
+      "source": "rofan",
+      "description": "나의 아이를 잃어버린 날, 나는 결심했다.",
+      "tags": [
+        "혐관",
+        "피폐",
+        "후회",
+        "쓰레기",
+        "회귀",
+        "불륜"
+      ],
+      "interaction_count": 12000,
+      "url": "",
+      "image_url": "https://img.rofan.ai/bot-assets/ed69e976-1eb3-4a4b-b103-7c15165bee1a/1eb6fa3760c7798a560978a4f3d7ec09.webp",
+      "image_local": "/images/rofan_ed69e976.webp"
+    },
+    {
+      "name": "하루토",
+      "source": "rofan",
+      "description": "하아?! 너랑 내가 친구?!최악이야.oO(최고로 좋아)",
+      "tags": [
+        "스포츠",
+        "하이틴",
+        "청춘물",
+        "BL",
+        "야구",
+        "까칠",
+        "키작공",
+        "아기고양이"
+      ],
+      "interaction_count": 3600,
+      "url": "",
+      "image_url": "https://img.rofan.ai/bot-assets/779ef8bf-daea-4d53-bd8d-82bbaa315f7b/f4931ca00c6febd6aef15211898f6a26.webp",
+      "image_local": "/images/rofan_779ef8bf.webp"
+    },
+    {
+      "name": "차유성",
+      "source": "rofan",
+      "description": "R ONLY",
+      "tags": [
+        "일상",
+        "순애",
+        "능글",
+        "청송대",
+        "다정",
+        "햇살",
+        "배구",
+        "예의바른청년",
+        "HL",
+        "BL"
+      ],
+      "interaction_count": 2000,
+      "url": "",
+      "image_url": "https://img.rofan.ai/bot-assets/18d289ab-f4ba-4acc-a436-f1ca342720bc/2848f46196dc50f574c88f7ef3889c95.webp",
+      "image_local": "/images/rofan_18d289ab.webp"
+    },
+    {
+      "name": "엘로디",
+      "source": "rofan",
+      "description": "···그대도 나를 떠나겠죠. 알고 있답니다.",
+      "tags": [
+        "HL",
+        "BL",
+        "판타지",
+        "장미",
+        "정령",
+        "여성향",
+        "소유욕",
+        "남자",
+        "로판",
+        "플로렌티아"
+      ],
+      "interaction_count": 0,
+      "url": "",
+      "image_url": "https://img.rofan.ai/bot-assets/888a6514-3bae-40db-ab89-07f7318a8867/1f82215dd6e7ad00bdcdf808cfb8372a.webp",
+      "image_local": "/images/rofan_888a6514.webp"
+    },
+    {
+      "name": "차성진",
+      "source": "rofan",
+      "description": "재 냄새가 배인 열여덟, 불씨 하나를 삼킨 소년.",
+      "tags": [
+        "츤데레",
+        "소꿉친구",
+        "고등학생",
+        "짝사랑",
+        "무자각",
+        "능글",
+        "일진",
+        "조폭",
+        "순애"
+      ],
+      "interaction_count": 4500,
+      "url": "",
+      "image_url": "https://img.rofan.ai/bot-assets/d1fe81ed-6a2a-463a-a604-35c35f0ab54c/9192b1c28d653270139e5090cabf2b81.webp",
+      "image_local": "/images/rofan_d1fe81ed.webp"
+    },
+    {
+      "name": "루크",
+      "source": "rofan",
+      "description": "\"운명 그까짓 게, 뭐 그리 중요하다고 매달리는 건데.\"",
+      "tags": [
+        "조직",
+        "해커",
+        "무뚝뚝",
+        "HL",
+        "BL"
+      ],
+      "interaction_count": 0,
+      "url": "",
+      "image_url": "https://img.rofan.ai/bot-assets/55aee58e-cca2-498b-837b-13f26b018f6e/67171e404c728cc2618560f9c2e7d6f3.webp",
+      "image_local": "/images/rofan_55aee58e.webp"
+    },
+    {
+      "name": "흑막 가문의 아기가 되었다",
+      "source": "rofan",
+      "description": "로판 육아물의 주인공이 되어보자",
+      "tags": [
+        "북부대공",
+        "육아",
+        "수인",
+        "로판",
+        "환생",
+        "시뮬레이션",
+        "힐링",
+        "가족",
+        "판타지",
+        "일상"
+      ],
+      "interaction_count": 12000,
+      "url": "",
+      "image_url": "https://img.rofan.ai/bot-assets/32d58ede-00f9-4398-9859-8a804fa31cda/457250d77e2446e05aaa73116f043433.webp",
+      "image_local": "/images/rofan_32d58ede.webp"
+    },
+    {
+      "name": "카이엘",
+      "source": "rofan",
+      "description": "R ONLY",
+      "tags": [
+        "로맨스",
+        "로판",
+        "또라이",
+        "약혼자",
+        "파혼지망"
+      ],
+      "interaction_count": 11000,
+      "url": "",
+      "image_url": "https://img.rofan.ai/bot-assets/b330da24-8ea4-4a8d-8ac4-22d3a7d8c104/59e9ce2a3161a1028f95cd772d959c3b.webp",
+      "image_local": "/images/rofan_b330da24.webp"
+    },
+    {
+      "name": "요츠바",
+      "source": "rofan",
+      "description": "내, 내가 훨씬 더 잘해줄 수 있는데......!",
+      "tags": [
+        "남자",
+        "HL",
+        "키작남",
+        "멘헤라",
+        "불안꽉낀다",
+        "음침남",
+        "소심",
+        "얀데레",
+        "여장",
+        "이래도되는건가진짜로"
+      ],
+      "interaction_count": 0,
+      "url": "",
+      "image_url": "https://img.rofan.ai/bot-assets/76c35006-3a61-4e49-8631-a30ce8519217/1e341798060693135a77189a4d5208f6.webp",
+      "image_local": "/images/rofan_76c35006.webp"
+    },
+    {
+      "name": "미나",
+      "source": "rofan",
+      "description": "R ONLY",
+      "tags": [
+        "학원물",
+        "성장",
+        "청춘",
+        "소심이",
+        "오타쿠",
+        "서브컬쳐"
+      ],
+      "interaction_count": 0,
+      "url": "",
+      "image_url": "https://img.rofan.ai/bot-assets/22b43587-cb49-4037-8958-f0d015b3aebb/f8d85387beb9664530fa2d2fcbb1bdd6.webp",
+      "image_local": "/images/rofan_22b43587.webp"
+    },
+    {
+      "name": "나혼자 이세계 크리에이터",
+      "source": "rofan",
+      "description": "R ONLY",
+      "tags": [
+        "이세계빙의",
+        "성장물",
+        "먼치킨",
+        "창조능력",
+        "건설판타지",
+        "국가대립",
+        "이세계물",
+        "시스템"
+      ],
+      "interaction_count": 0,
+      "url": "",
+      "image_url": "https://img.rofan.ai/bot-assets/c712d2f6-a0bd-45e4-ae02-1bb149ee46c8/3a783d2c0c9176f4344c918eb9911366.webp",
+      "image_local": "/images/rofan_c712d2f6.webp"
+    },
+    {
+      "name": "서한진",
+      "source": "rofan",
+      "description": "누나, 머리가 좀 굵어졌네? 약 기운이 다 빠지긴 했나 봐.",
+      "tags": [
+        "감금",
+        "집착",
+        "의사",
+        "약물",
+        "전남친",
+        "연하",
+        "피폐"
+      ],
+      "interaction_count": 1200,
+      "url": "",
+      "image_url": "https://img.rofan.ai/bot-assets/a7bf3e67-8b88-4958-8b43-9378e0fb995e/3ac6f29d70af872cf3a60ff4f4db84cc.webp",
+      "image_local": "/images/rofan_a7bf3e67.webp"
+    },
+    {
+      "name": "도현",
+      "source": "rofan",
+      "description": "R ONLY",
+      "tags": [
+        "로맨스",
+        "플러팅",
+        "운동부",
+        "순애",
+        "HL",
+        "청춘연가"
+      ],
+      "interaction_count": 6600,
+      "url": "",
+      "image_url": "https://img.rofan.ai/bot-assets/065e3b70-a4fa-4e15-b931-514b05441207/43ccc309da25ef2843ba7837f591eb4f.webp",
+      "image_local": "/images/rofan_065e3b70.webp"
+    },
+    {
+      "name": "강서린",
+      "source": "rofan",
+      "description": "\"이건 비즈니스입니다.\" 그녀의 손끝이 미세하게 떨렸다.",
+      "tags": [
+        "여성"
+      ],
+      "interaction_count": 0,
+      "url": "",
+      "image_url": "https://img.rofan.ai/bot-assets/e007cda4-387e-4209-ad3d-649bff8ee591/168d18fe134ce31409899edca805d00a.webp",
+      "image_local": "/images/rofan_e007cda4.webp"
+    },
+    {
+      "name": "네피온 제국",
+      "source": "rofan",
+      "description": "R ONLY",
+      "tags": [
+        "시뮬레이션",
+        "판타지",
+        "이세계",
+        "HL",
+        "BL",
+        "GL",
+        "악마",
+        "천사"
+      ],
+      "interaction_count": 2400,
+      "url": "",
+      "image_url": "https://img.rofan.ai/bot-assets/befb8b77-d7be-45d5-b6b7-4999e7d18d00/909a4befd02cb1c384adb99bd8cdfbd0.webp",
+      "image_local": "/images/rofan_befb8b77.webp"
+    },
+    {
+      "name": "명솔",
+      "source": "rofan",
+      "description": "R ONLY",
+      "tags": [
+        "로맨스",
+        "피폐",
+        "폭력",
+        "우울",
+        "구원"
+      ],
+      "interaction_count": 0,
+      "url": "",
+      "image_url": "https://img.rofan.ai/bot-assets/b330da24-8ea4-4a8d-8ac4-22d3a7d8c104/300830b517e0fea12b2dc657ef0d146e.webp",
+      "image_local": "/images/rofan_b330da24.webp"
+    },
+    {
+      "name": "정지환",
+      "source": "rofan",
+      "description": "R ONLY",
+      "tags": [
+        "HL",
+        "BL",
+        "캠퍼스",
+        "능글",
+        "순애",
+        "계략",
+        "집착",
+        "냐미하움"
+      ],
+      "interaction_count": 0,
+      "url": "",
+      "image_url": "https://img.rofan.ai/bot-assets/8bd27462-814e-4fa4-ba83-351920b5e8d6/e47bce17b63f9ea7a1ffe4b89e1bc385.webp",
+      "image_local": "/images/rofan_8bd27462.webp"
+    }
+  ]
+}

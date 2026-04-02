@@ -10,6 +10,7 @@ interface Character {
   tags: string[];
   interaction_count: number;
   image_url: string;
+  image_local?: string;
   url: string;
   g3: number;
   g4: number;
@@ -58,14 +59,19 @@ export default function CharacterCard({ character: char }: Props) {
     <div className="bg-card border border-border rounded-2xl overflow-hidden hover:border-accent/50 transition-colors flex flex-col">
       {/* 이미지 영역 */}
       <div className="relative aspect-[4/3] bg-bg overflow-hidden">
-        {char.image_url ? (
+        {(char.image_local || char.image_url) ? (
           /* eslint-disable-next-line @next/next/no-img-element */
           <img
-            src={char.image_url}
+            src={char.image_local || char.image_url}
             alt={char.name}
             className="w-full h-full object-cover"
             onError={(e) => {
-              (e.target as HTMLImageElement).style.display = "none";
+              const target = e.target as HTMLImageElement;
+              if (char.image_local && char.image_url && target.src !== char.image_url) {
+                target.src = char.image_url;
+              } else {
+                target.style.display = "none";
+              }
             }}
           />
         ) : (

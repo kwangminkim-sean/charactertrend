@@ -61,6 +61,7 @@ def _char_dict(sc) -> dict:
         "interaction_count": c.interaction_count,
         "url": c.url or "",
         "image_url": c.image_url or "",
+        "image_local": getattr(c, "image_local", "") or "",
         "g3": sc.g3, "g4": sc.g4, "g5": sc.g5,
         "total": sc.total,
         "reason": sc.reason or "",
@@ -77,6 +78,7 @@ def _raw_char_dict(c) -> dict:
         "interaction_count": c.interaction_count,
         "url": c.url or "",
         "image_url": c.image_url or "",
+        "image_local": getattr(c, "image_local", "") or "",
     }
 
 
@@ -292,8 +294,9 @@ function scoreBar(label, val, color){
 
 function cardHtml(c, rank){
   const sc=srcColor(c.source), sl=srcLabel(c.source);
-  const img=c.image_url
-    ?`<img src="${c.image_url}" alt="${c.name}" loading="lazy" onerror="this.src='${avatarSvg(c.name)}'">`
+  const imgSrc=c.image_local||c.image_url||'';
+  const img=imgSrc
+    ?`<img src="${imgSrc}" alt="${c.name}" loading="lazy" onerror="this.src='${avatarSvg(c.name)}'">`
     :`<img src="${avatarSvg(c.name)}" alt="${c.name}">`;
   const nameEl=c.url
     ?`<a href="${c.url}" target="_blank" class="char-name">${c.name}</a>`
