@@ -31,7 +31,7 @@ except ImportError:
     pass
 
 from tracker.config import load_config
-from tracker.scraper import scrape_all, Character
+from tracker.scraper import scrape_all, Character, Scraper
 from tracker.analyzer import analyze_and_rank, ScoredCharacter
 from tracker.archiver import archive_to_notion
 
@@ -110,90 +110,10 @@ def _char_to_dict(sc: ScoredCharacter) -> dict:
 
 
 def _scrape_with_sources(cfg, enabled_sources: list[str]) -> list[Character]:
-    """enabled_sources 목록에 따라 선택적 스크래핑"""
-    import time
-    from tracker.scraper import (
-        ZetaScraper, CrackScraper, NaverWebtoonScraper,
-        RidiScraper, KakaopageScraper, SAMPLE_CHARACTERS
-    )
-
-    all_chars: list[Character] = []
-
-    if "zeta" in enabled_sources:
-        logger.info("[Scraper] Zeta AI 브라우저 스크래핑 시작...")
-        try:
-            from tracker.browser_scraper import scrape_zeta_ranking
-            zeta_chars = scrape_zeta_ranking(cfg)
-            if not zeta_chars:
-                # 브라우저 실패 시 기존 스크래퍼 폴백
-                from tracker.scraper import ZetaScraper
-                zeta_chars = ZetaScraper(cfg).fetch()
-        except Exception as e:
-            logger.warning(f"[Zeta] 브라우저 실패, 기존 방식 시도: {e}")
-            from tracker.scraper import ZetaScraper
-            zeta_chars = ZetaScraper(cfg).fetch()
-        logger.info(f"[Scraper] Zeta: {len(zeta_chars)}개")
-        all_chars.extend(zeta_chars)
-        time.sleep(cfg.request_delay)
-
-    if "crack" in enabled_sources:
-        logger.info("[Scraper] Crack AI 브라우저 스크래핑 시작...")
-        try:
-            from tracker.browser_scraper import scrape_crack_ranking
-            crack_chars = scrape_crack_ranking(cfg)
-            if not crack_chars:
-                from tracker.scraper import CrackScraper
-                crack_chars = CrackScraper(cfg).fetch()
-        except Exception as e:
-            logger.warning(f"[Crack] 브라우저 실패, 기존 방식 시도: {e}")
-            from tracker.scraper import CrackScraper
-            crack_chars = CrackScraper(cfg).fetch()
-        logger.info(f"[Scraper] Crack: {len(crack_chars)}개")
-        all_chars.extend(crack_chars)
-        time.sleep(cfg.request_delay)
-
-    if "rofan" in enabled_sources:
-        logger.info("[Scraper] Rofan AI 랭킹 브라우저 스크래핑...")
-        try:
-            from tracker.browser_scraper import scrape_rofan_ranking
-            rofan_chars = scrape_rofan_ranking(cfg)
-        except Exception as e:
-            logger.warning(f"[Rofan] 브라우저 스크래핑 실패: {e}")
-            rofan_chars = []
-        logger.info(f"[Scraper] Rofan: {len(rofan_chars)}개")
-        all_chars.extend(rofan_chars)
-        time.sleep(cfg.request_delay)
-
-    if "naver_webtoon" in enabled_sources:
-        logger.info("[Scraper] 네이버 웹툰 인기순위 스크래핑...")
-        naver_chars = NaverWebtoonScraper(cfg).fetch()
-        logger.info(f"[Scraper] 네이버 웹툰: {len(naver_chars)}개")
-        all_chars.extend(naver_chars)
-        time.sleep(cfg.request_delay)
-
-    if "ridi" in enabled_sources:
-        logger.info("[Scraper] 리디북스 베스트셀러 스크래핑...")
-        ridi_chars = RidiScraper(cfg).fetch()
-        logger.info(f"[Scraper] 리디: {len(ridi_chars)}개")
-        all_chars.extend(ridi_chars)
-        time.sleep(cfg.request_delay)
-
-    if "kakaopage" in enabled_sources:
-        logger.info("[Scraper] 카카오페이지 인기순위 스크래핑...")
-        kakao_chars = KakaopageScraper(cfg).fetch()
-        logger.info(f"[Scraper] 카카오페이지: {len(kakao_chars)}개")
-        all_chars.extend(kakao_chars)
-
-    # sample: 아무것도 없거나 명시적으로 지정된 경우
-    if not all_chars or "sample" in enabled_sources:
-        if not all_chars:
-            logger.warning("[Scraper] 모든 수집 실패 → 한국 웹소설 큐레이션 샘플 사용")
-        elif "sample" in enabled_sources:
-            logger.info("[Scraper] 샘플 캐릭터 추가...")
-        all_chars.extend(SAMPLE_CHARACTERS[: cfg.top_n])
-
-    logger.info(f"[Scraper] 최종 {len(all_chars)}개 캐릭터 수집 완료")
-    return all_chars
+    """enabled_sources 목록에 따라 선택적 스크래핑 - Playwright 기반 Scraper 사용"""
+    cfg.enabled_sources = enabled_sources
+    scraper = Scraper(cfg)
+    return scraper.fetch_all()
 
 
 def main() -> int:
